@@ -25,6 +25,27 @@ nav {
   display: flex;
 }
 
+nav a {
+  flex-grow: 1;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border: 1px solid;
+  margin: 3px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: blue;
+  color: white;
+}
+
+img {
+  max-width: 100%
+}
+
 footer {
   background: #333;
   color: white;
@@ -35,4 +56,10 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: grid;
+  }
 }
