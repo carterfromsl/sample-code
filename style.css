@@ -68,6 +68,8 @@ footer p {
 }
 
 .spin {
+  display: block;
+  margin: 0 auto;
   animation: spin 5s linear infinite;
 }
 
