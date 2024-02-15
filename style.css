@@ -14,6 +14,7 @@ body {
   width: 94%;
   max-width: 1000px;
   margin: 20px auto;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 header, main, footer {
