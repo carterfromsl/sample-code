@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Arial', sans-serif;
+  background: #ddd;
+}
+
+body {
+  color: #333;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 94%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header {
+  border-bottom: 2px solid;
+}
+
+nav {
+  display: flex;
+}
